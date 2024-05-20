@@ -145,7 +145,7 @@ result = nearest_courier(new_order, couriers)
 print(f'Nearest Courier number : {result[0]} and courier name : {result[1]}')
 
 
-#10-----------------------------------------------------------------------------------------------------
+#9-----------------------------------------------------------------------------------------------------
 parcel_tracking=[[1,"Parcel in transit"],[2,"Parcel out for delivery"],[3,"Parcel delivered"]]
 tracking_number=int(input("Enter your parcel Id:"))
 for parcel in parcel_tracking:
@@ -153,7 +153,7 @@ for parcel in parcel_tracking:
    print("Parcel Status:",parcel[1])
    break
 
-#11--------------------------------------------------------------------------------------------------
+#10--------------------------------------------------------------------------------------------------
 import re;
 def data_Validation(data,detail):
    if(detail=="name"):
